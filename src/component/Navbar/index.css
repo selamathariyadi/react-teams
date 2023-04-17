@@ -1,0 +1,24 @@
+.button {
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    line-height: normal;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+.nav a {
+    font-size: 18px;
+    line-height: normal;
+    color: green;
+    font-weight: 800;
+}
