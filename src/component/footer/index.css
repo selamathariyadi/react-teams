@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@300&display=swap");
+* {
+    /* outline: 1px red solid; */
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.footer {
+    background-image: url("../../asset/images/footer-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 548px;
+    margin-top: 110px;
+}
+
+.footer-conten {
+    padding-top: 120px;
+}
+
+.footer-conten .up-side-footer h6 {
+    margin-left: 32px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.up-side-footer ul a {
+    text-decoration: none;
+}
+
+.up-side-footer ul li {
+    list-style: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer-conten .down-side-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 68px 0 0 32px;
+}
+
+.down-side-footer .travelark-orange-logo {
+    margin-bottom: 2.45%;
+}
+
+.down-side-footer h6 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.down-side-footer .right .icons {
+    text-align: end;
+}
+
+.down-side-footer .right i {
+    color: #ffffff;
+    font-size: 30px
+}
+
+.down-side-footer .right p {
+    color: #ffffff;
+}
