@@ -1,9 +1,9 @@
 import React from 'react'
 
-function index() {
+function Discovery() {
   return (
-    <div>index</div>
+    <div>Discovery</div>
   )
 }
 
-export default index
+export default Discovery
