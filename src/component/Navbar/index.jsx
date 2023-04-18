@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 import { Link } from 'react-router-dom';
-import '../Navbar/index.css'
+import '../Navbar/navbar.css'
 import Logo from '../../asset/images/navbar-travelark.png'
 
 
