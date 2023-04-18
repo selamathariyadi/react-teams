@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Montserrat:wght@300&display=swap");
+* {
+  /* outline: 1px red solid; */
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.hero,
+.hero-package {
+  margin: 80px 0 150px 0;
+  height: 70vh;
+  position: relative;
+}
+.hero .container,
+.hero-package .container {
+  align-content: center;
+}
+.hero .container .content-box,
+.hero-package .container .content-box {
+  margin-top: 100px;
+}
+.hero .container .content-box button,
+.hero-package .container .content-box button {
+  margin-bottom: 20px;
+  text-align: start;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.hero .container .content-box button i,
+.hero-package .container .content-box button i {
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 2px;
+}
+.hero .container .content-box button:hover,
+.hero .container .content-box i:hover,
+.hero-package .container .content-box button:hover,
+.hero-package .container .content-box i:hover {
+  color: #fd7b38;
+}
+.hero .container .one-box,
+.hero-package .container .one-box {
+  outline: #fd7b38 10px solid;
+  width: 300px;
+  height: 100px;
+  z-index: 0;
+  position: absolute;
+  left: 64%;
+  top: 20%;
+}
+.hero .container .one-box-hero-destination,
+.hero-package .container .one-box-hero-destination {
+  outline: #fd7b38 10px solid;
+  width: 666px;
+  height: 210px;
+  z-index: 0;
+  position: absolute;
+  left: 64%;
+  top: 20%;
+}
+.hero .container .two-box,
+.hero-package .container .two-box {
+  outline: #fd7b38 10px solid;
+  width: 200px;
+  height: 390px;
+  position: absolute;
+  z-index: 0;
+  right: 10%;
+  top: 5%;
+}
+.hero .container .three-box img,
+.hero-package .container .three-box img {
+  width: 250px;
+  height: 300px;
+  z-index: 1;
+  position: absolute;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -o-object-position: center;
+     object-position: center;
+  right: 14%;
+  top: -8%;
+  border: 10px solid white;
+  /* Support IE 9 */
+  /* support Safari */
+  transform: rotate(4deg);
+  /* Standard syntax */
+}
+.hero .container .hero-destination-1 img,
+.hero-package .container .hero-destination-1 img {
+  width: 254px;
+  height: 308px;
+  z-index: 2;
+  position: absolute;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -o-object-position: center;
+     object-position: center;
+  right: 10%;
+  top: -10%;
+  border: 10px solid white;
+  /* Support IE 9 */
+  /* support Safari */
+  transform: rotate(4deg);
+  /* Standard syntax */
+}
+.hero .container .four-box img,
+.hero-package .container .four-box img {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  z-index: 3;
+  border: 10px solid white;
+  right: -3%;
+  /* Support IE 9 */
+  /* support Safari */
+  transform: rotate(-7deg);
+  /* Standard syntax */
+}
+.hero .container .hero-destination-2 img,
+.hero-package .container .hero-destination-2 img {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  z-index: 1;
+  border: 10px solid white;
+  right: -3%;
+  /* Support IE 9 */
+  /* support Safari */
+  transform: rotate(-7deg);
+  /* Standard syntax */
+}
+.hero .container .five-box img,
+.hero-package .container .five-box img {
+  width: 300px;
+  height: 200px;
+  z-index: 2;
+  position: absolute;
+  border: 10px solid white;
+  right: 20px;
+  top: 30%;
+  /* Support IE 9 */
+  /* support Safari */
+  transform: rotate(-7deg);
+  /* Standard syntax */
+}
+.hero .container .hero-destination-3 img,
+.hero-package .container .hero-destination-3 img {
+  width: 300px;
+  height: 200px;
+  z-index: 3;
+  position: absolute;
+  border: 10px solid white;
+  right: -5%;
+  top: 30%;
+  /* Support IE 9 */
+  /* support Safari */
+  transform: rotate(-7deg);
+  /* Standard syntax */
+}
+.hero .container .banner img,
+.hero-package .container .banner img {
+  width: 380px;
+  height: 280px;
+  z-index: -1;
+  position: absolute;
+  background-position: center center;
+  -webkit-clip-path: polygon(100px 0, calc(100% - 50px) 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+          clip-path: polygon(100px 0, calc(100% - 50px) 0, 100% 0, 100% 100%, 0 100%, 0 100px);
+  border: 2px solid white;
+  right: 80px;
+}
+.hero .container .about-us-border-hero,
+.hero-package .container .about-us-border-hero {
+  width: 358px;
+  height: 385px;
+  z-index: -1;
+  position: absolute;
+  background-position: center center;
+  border: 2px solid white;
+  right: 80px;
+}
+.hero .container .banner1 img,
+.hero-package .container .banner1 img {
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  right: -20;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-bottom: 10px solid white;
+}
+.hero .container .about-us-image-hero img,
+.hero-package .container .about-us-image-hero img {
+  width: 330px;
+  height: 376px;
+  position: absolute;
+  z-index: 1;
+  top: -50px;
+  right: 50px;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-bottom: 10px solid white;
+}/*# sourceMappingURL=style.css.map */
