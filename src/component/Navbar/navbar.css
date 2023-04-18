@@ -5,15 +5,15 @@
     width: 150px;
     height: 35px;
     font-size: 18px;
-    line-height: normal;
-    padding: 5px;
+    font-weight: 500;
+    padding: 2px;
     text-align: center;
     border-radius: 10px;
-    background-color: green;
+    background-color: #34A753;
 }
 
 .button:hover {
-    background-color: greenyellow;
+    background-color: #FD7B38;
 }
 
 .nav a {
