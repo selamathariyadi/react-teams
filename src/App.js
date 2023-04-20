@@ -1,17 +1,15 @@
 import React from 'react';
-import Navbar from './component/Navbar';
-import Footer from './component/footer';
-import Discount from './component/discount'
-import Discovery from './component/jumbotron/discovery';
 
+
+import {Routes,Route} from 'react-router-dom'
+import Discoverypages from './component/Routes/Discovery';
 
 function App() {
     return (
       <>
-      <Navbar/>
-      <Discovery/>
-      <Discount/>
-      <Footer/>
+      <Routes>
+        <Route path='/' element={<Discoverypages/>}/>
+      </Routes>
       
       </>
     );
